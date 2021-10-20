@@ -3,7 +3,7 @@ The last time you booked a flight, what were your key considerations? Price? Air
 Bringing the question, this article describes the full process of building a Machine Learning solution. In this project, we only work with one month US domestic flights data.
 ## 1.Preparation and planning
 Before we jump into the data pool, it is better to study the key reasons for flight delay. After searching in internet, I summarize top ten reasons:
-
+![](https://github.com/ryanhao1115/DL_Predict_Flight_Delays/blob/main/p1.png)
 The next step is to brainstorm where can we find the data that predicts the situation above. I use the below table to map the reasons and potential data.
 
 According table above, I decided to use flight data and weather data for this solution.

@@ -5,12 +5,12 @@ Bringing the question, this article describes the full process of building a Mac
 Before we jump into the data pool, it is better to study the key reasons for flight delay. After searching in internet, I summarize top ten reasons:
 ![](https://github.com/ryanhao1115/DL_Predict_Flight_Delays/blob/main/p1.png)
 The next step is to brainstorm where can we find the data that predicts the situation above. I use the below table to map the reasons and potential data.
-
+![](https://github.com/ryanhao1115/DL_Predict_Flight_Delays/blob/main/p2.png)
 According table above, I decided to use flight data and weather data for this solution.
 
 ## 2. Data Preparation and Exploratory Analysis.
 Feature selection is one of the most important tasks in an ML project. The data downloaded from Flights API has over 50 data fields. According to the above mapping table, we can choose only 9 related fields, including carrier, flight number, flight date, departure airport, departure time, arrival airport, arrival time, flight distance, and delay in minutes.
-
+![](https://github.com/ryanhao1115/DL_Predict_Flight_Delays/blob/main/p3.png)
 Counting the number of flights per month per airport, we ranked the top 10 airports. The Origin Top 10 are the same as Destination Top 10( chart above). However, if we compare the top10 average delay(chart below), lists of destination airports and origin airports are different.
 
 Although the top10 average delay looks horrible( according to chart of distribution of average delays below), they are just outliners.
